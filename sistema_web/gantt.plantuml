@@ -1,0 +1,54 @@
+@startgantt
+Project starts 2026-04-01
+title [Desenvolvimento - Sistema de Cadastro de Alunos]
+
+[Levantamento de requisitos] requires 3 days
+[Definição da arquitetura] requires 2 days
+[Definição da arquitetura] starts at [Levantamento de requisitos]'s end
+
+[Modelagem do banco de dados] requires 2 days
+[Modelagem do banco de dados] starts at [Definição da arquitetura]'s end
+
+[Configuração ambiente PHP] requires 2 days
+[Configuração ambiente PHP] starts at [Modelagem do banco de dados]'s end
+
+[Configuração banco MySQL] requires 1 day
+[Configuração banco MySQL] starts at [Configuração ambiente PHP]'s end
+
+[Create aluno] requires 2 days
+[Create aluno] starts at [Configuração banco MySQL]'s end
+
+[Read alunos] requires 2 days
+[Read alunos] starts at [Create aluno]'s end
+
+[Update aluno] requires 2 days
+[Update aluno] starts at [Read alunos]'s end
+
+[Delete aluno] requires 1 day
+[Delete aluno] starts at [Update aluno]'s end
+
+[Layout Bootstrap] requires 2 days
+[Layout Bootstrap] starts at [Configuração ambiente PHP]'s end
+
+[Formulário cadastro] requires 2 days
+[Formulário cadastro] starts at [Layout Bootstrap]'s end
+
+[Tabela de alunos] requires 2 days
+[Tabela de alunos] starts at [Formulário cadastro]'s end
+
+[Integração frontend backend] requires 2 days
+[Integração frontend backend] starts at [Delete aluno]'s end
+
+[Testes do sistema] requires 3 days
+[Testes do sistema] starts at [Integração frontend backend]'s end
+
+[Correções] requires 2 days
+[Correções] starts at [Testes do sistema]'s end
+
+[Deploy] requires 1 day
+[Deploy] starts at [Correções]'s end
+
+[Documentação] requires 2 days
+[Documentação] starts at [Deploy]'s end
+
+@endgantt

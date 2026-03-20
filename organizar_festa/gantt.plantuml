@@ -1,0 +1,48 @@
+@startgantt
+Project starts 2012-09-15
+title [Projeto - Café Beneficente]
+
+
+[Definição do objetivo e escopo] requires 1 day
+[Definição do orçamento] requires 1 day
+[Definição do orçamento] starts at [Definição do objetivo e escopo]'s end
+
+[Definição da data do evento] requires 1 day
+[Definição da data do evento] starts at [Definição do orçamento]'s end
+
+
+[Escolha do local] requires 3 days
+[Escolha do local] starts at [Definição da data do evento]'s end
+
+[Definição do cardápio] requires 3 days
+[Definição do cardápio] starts at [Escolha do local]'s end
+
+[Recrutamento de voluntários] requires 5 days
+[Recrutamento de voluntários] starts at [Definição do cardápio]'s end
+
+[Divulgação do evento] requires 7 days
+[Divulgação do evento] starts at [Recrutamento de voluntários]'s end
+
+
+[Compra de insumos] requires 3 days
+[Compra de insumos] starts at [Divulgação do evento]'s end
+
+[Organização do espaço] requires 2 days
+[Organização do espaço] starts at [Compra de insumos]'s end
+
+
+[Realização do café beneficente] happens at 2012-10-10
+
+
+[Apuração dos recursos arrecadados] requires 2 days
+[Apuração dos recursos arrecadados] starts at [Realização do café beneficente]'s end
+
+[Compra dos brinquedos] requires 2 days
+[Compra dos brinquedos] starts at [Apuração dos recursos arrecadados]'s end
+
+[Organização da entrega] requires 1 day
+[Organização da entrega] starts at [Compra dos brinquedos]'s end
+
+[Entrega dos brinquedos] happens at 2012-10-12
+
+@endgantt

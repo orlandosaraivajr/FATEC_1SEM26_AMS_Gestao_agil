@@ -1,0 +1,77 @@
+@startwbs
+* Sistema de Cadastro de Alunos
+** 1. Planejamento
+*** Definição de requisitos
+**** Identificação das funcionalidades
+**** Requisitos funcionais
+**** Requisitos não funcionais
+*** Definição da arquitetura
+**** Escolha das tecnologias
+**** Definição da estrutura do projeto
+*** Planejamento do cronograma
+**** Estimativa de esforço
+**** Definição de marcos
+
+** 2. Modelagem do Sistema
+*** Modelagem do banco de dados
+**** Entidade Aluno
+**** Campos (id, nome, email, curso, data_nascimento)
+**** Criação do diagrama ER
+*** Modelagem das telas
+**** Tela de listagem de alunos
+**** Tela de cadastro
+**** Tela de edição
+**** Tela de exclusão
+
+** 3. Desenvolvimento Backend (PHP)
+*** Configuração do ambiente
+**** Instalação do PHP
+**** Configuração do servidor web
+*** Conexão com banco MySQL
+**** Script de conexão
+**** Configuração de credenciais
+*** Implementação do CRUD
+**** Create (cadastrar aluno)
+**** Read (listar alunos)
+**** Update (editar aluno)
+**** Delete (remover aluno)
+
+** 4. Desenvolvimento Frontend (Bootstrap)
+*** Estrutura base
+**** Layout principal
+**** Navbar
+**** Rodapé
+*** Interface de cadastro
+**** Formulário de cadastro
+**** Validação de campos
+*** Interface de listagem
+**** Tabela de alunos
+**** Botões de editar e excluir
+*** Interface de edição
+**** Formulário de edição
+*** Responsividade
+**** Ajustes para mobile
+**** Ajustes para tablet
+
+** 5. Integração
+*** Integração frontend com backend
+*** Testes de comunicação com banco
+*** Ajustes de fluxo de navegação
+
+** 6. Testes
+*** Testes unitários
+*** Testes de funcionalidade
+*** Testes de validação de dados
+*** Testes de usabilidade
+
+** 7. Implantação
+*** Preparação do servidor
+*** Configuração do banco de dados
+*** Deploy da aplicação
+*** Testes em produção
+
+** 8. Documentação
+*** Documentação técnica
+*** Manual do usuário
+*** Guia de instalação
+@endwbs
