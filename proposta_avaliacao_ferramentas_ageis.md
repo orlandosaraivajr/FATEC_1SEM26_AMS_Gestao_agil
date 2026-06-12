@@ -78,8 +78,9 @@ No relatório deve contar o nome de todos os integrantes e o qual ferramenta cad
 
 ## 6. Entregáveis
 
-- Demonstração ao vivo ou gravada da ferramenta configurada
-- Relatório com a síntese da pesquisa via endereço https://forms.gle/D3oCtbZmZHu6VM3x7 
+- Demonstração gravada da ferramenta configurada e disponibilizada em um vídeo no YouTube.
+- Relatório com a síntese da pesquisa 
+- Entrega do relatório e link do vídeo pelo forms: https://forms.gle/WfjCf5hDifh4GV9G7
 
 ---
 
